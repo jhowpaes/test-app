@@ -6,7 +6,9 @@
     "start": "expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "android:aab": "cd android && ./gradlew bundleRelease",
+    "android:apk": "cd android && ./gradlew assembleRelease"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.6.0",
